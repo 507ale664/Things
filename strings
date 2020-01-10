@@ -1,0 +1,8 @@
+string = [5,23,890,234,8923,849,305]
+GR=0
+x=0
+while x<len(string):
+    if GR <= string[x]:
+        GR = string[x]
+    x+=1
+print(GR)
