@@ -1,8 +1,8 @@
-string = [5,23,890,234,8923,849,305]
-GR=0
+array = [5,23,890,234,8923,849,305]
 x=0
-while x<len(string):
-    if GR <= string[x]:
-        GR = string[x]
+GR=array[x]
+while x<len(array):
+    if GR <= array[x]:
+        GR = array[x]
     x+=1
 print(GR)
